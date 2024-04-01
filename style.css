@@ -1,0 +1,78 @@
+.container {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 500px;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Add hover effect */
+.container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Optional: Style for child elements */
+.container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional Styling */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container input[type="text"] {
+    width: calc(100% - 20px); /* Adjusted width for padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.container li:last-child {
+    margin-bottom: 0;
+}
+
+.container li:hover {
+    background-color: #e0e0e0;
+}
+
